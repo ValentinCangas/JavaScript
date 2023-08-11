@@ -23,7 +23,7 @@ edad = prompt("Ingrsa tu año de nacimiento")
 
 let nombrealumno
 
-nombrealumno = prompt("Ingresa u nombre")
+nombrealumno = prompt("Ingresa tu nombre")
 
 alert("Bienvenido " + nombrealumno)
 
