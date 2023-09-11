@@ -1,4 +1,4 @@
-let nota = 8
+/*let nota = 8
 
 function estaAprobado(notaExamen)
 {
@@ -11,5 +11,15 @@ function estaAprobado(notaExamen)
         estado = "Desaprobaste, segui estudiando"
     }
     return estado
+}
+*/
+
+let fabriSeLlevaMaterias = false
+
+if(fabriSeLlevaMaterias == true)
+{
+    alert("se va a diciembre")
+}else{
+    alert("le copran la play 5")
 }
 
