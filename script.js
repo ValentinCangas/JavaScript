@@ -1,25 +1,12 @@
-/*let nota = 8
-
-function estaAprobado(notaExamen)
-{
-    let estado 
-    if (notaExamen >= 6)
-    {
-        estado = "Felicidades, aprobaste."
-    }
-    else {
-        estado = "Desaprobaste, segui estudiando"
-    }
-    return estado
-}
+/*
+1.Crear una funcion que determine el mayor de dos numeros
+2.Crear una funcion que determine si un numero es positivo, negativo o cero
+3.Crear una funcion que determine si un numero esta entre los valores 25 y 255
 */
 
-let fabriSeLlevaMaterias = false
-
-if(fabriSeLlevaMaterias == true)
-{
-    alert("se va a diciembre")
-}else{
-    alert("le copran la play 5")
+function (a,b){
+    if (a>b)
+    alert( true)
+} else(a<b){
+    alert(false)
 }
-
