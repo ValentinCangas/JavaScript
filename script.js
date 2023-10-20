@@ -3,12 +3,23 @@
 2.Crear una funcion que determine si un numero es positivo, negativo o cero
 3.Crear una funcion que determine si un numero esta entre los valores 25 y 255
 */
-
-function maryor (a,b)
+//1
+function mayor (a,b){
     if (a>b){
-        return true
+        alert(a)
     } else{
-        return false
+        alert(b)
     }
+}
+mayor (2,3)
 
-    maryor (2,3)
+//2
+if (num>0)
+{
+    return "positivo"
+}else if (num==0){
+    return "cero"
+}else{
+    return "negativo"
+}
+ 
