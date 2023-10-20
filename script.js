@@ -4,9 +4,11 @@
 3.Crear una funcion que determine si un numero esta entre los valores 25 y 255
 */
 
-function (a,b){
-    if (a>b)
-    alert( true)
-} else(a<b){
-    alert(false)
-}
+function maryor (a,b)
+    if (a>b){
+        return true
+    } else{
+        return false
+    }
+
+    maryor (2,3)
