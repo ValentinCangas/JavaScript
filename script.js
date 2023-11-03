@@ -1,25 +1,42 @@
-/*
-1.Crear una funcion que determine el mayor de dos numeros
-2.Crear una funcion que determine si un numero es positivo, negativo o cero
-3.Crear una funcion que determine si un numero esta entre los valores 25 y 255
-*/
-//1
-function mayor (a,b){
-    if (a>b){
-        alert(a)
-    } else{
-        alert(b)
+//8
+function categoriaNotas(nota){
+    if(nota < 60){
+        return "EP"
+    }else if(nota < 80){
+        return "S"
+    }else{
+        return "MS"
     }
 }
-mayor (2,3)
 
-//2
-if (num>0)
-{
-    return "positivo"
-}else if (num==0){
-    return "cero"
-}else{
-    return "negativo"
+//9
+function diasDeLaSemana(dia){
+    if(dia == 1){
+        return "Lunes"
+    }else if(dia == 2){
+        return "Martes"
+    }else if(dia == 3){
+        return "Miercoles"
+    }else if(dia == 4){
+        return "Jueves"
+    }else if(dia == 5){
+        return "Viernes"
+    }else if(dia == 6){
+        return "Sabado"
+    }else if(dia == 7){
+        return "Domingo"
+    }
 }
- 
+
+
+//4
+function diasLaborables(dias){
+    if((dias == "Domingo") || (dias == "Sabado")) {
+        return "Dian No Laborable"
+    }else {
+        return "Dia Laborable"
+    }
+}
+
+let esLaborable = prompt("Ingresa un dia l¿de la semana")
+alert(diasLaborables(esLaborable))
